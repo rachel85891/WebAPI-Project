@@ -49,7 +49,7 @@ async function signUp(user) {
     if (response.status == 201) {
         alert(`User added successfully! ☑️\nplease log in to get inside`)
     }
-    if (response.status == 400) {
+    else if (response.status == 400) {
         alert("Password id too weak!")
     }
     else {
