@@ -1,0 +1,15 @@
+M:\webAPI\WebApiShop\Repositories\bin\Debug\net9.0\Repositories.deps.json
+M:\webAPI\WebApiShop\Repositories\bin\Debug\net9.0\Repositories.dll
+M:\webAPI\WebApiShop\Repositories\bin\Debug\net9.0\Repositories.pdb
+M:\webAPI\WebApiShop\Repositories\bin\Debug\net9.0\Entities.dll
+M:\webAPI\WebApiShop\Repositories\bin\Debug\net9.0\Entities.pdb
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.csproj.AssemblyReference.cache
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.AssemblyInfoInputs.cache
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.AssemblyInfo.cs
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.csproj.CoreCompileInputs.cache
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Reposito.787EC4B2.Up2Date
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.dll
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\refint\Repositories.dll
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.pdb
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\ref\Repositories.dll

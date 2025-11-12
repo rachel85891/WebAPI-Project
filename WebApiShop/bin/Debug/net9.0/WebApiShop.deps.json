@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "WebApiShop/1.0.0": {
+        "dependencies": {
+          "Services": "1.0.0"
+        },
+        "runtime": {
+          "WebApiShop.dll": {}
+        }
+      },
+      "zxcvbn-core/8.0.0-beta0002": {
+        "runtime": {
+          "lib/netstandard2.0/zxcvbn-core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "Entities/1.0.0": {
+        "runtime": {
+          "Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Repositories/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "runtime": {
+          "Repositories.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "Repositories": "1.0.0",
+          "zxcvbn-core": "8.0.0-beta0002"
+        },
+        "runtime": {
+          "Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApiShop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "zxcvbn-core/8.0.0-beta0002": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3l1tIg+glhOo02hjxjyk1SMEvbrKV4K2znGMePAg05HEEEhxS8nWBxSMUz/o69+FpjsgL0G70IWgO1gKPjdQfg==",
+      "path": "zxcvbn-core/8.0.0-beta0002",
+      "hashPath": "zxcvbn-core.8.0.0-beta0002.nupkg.sha512"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
