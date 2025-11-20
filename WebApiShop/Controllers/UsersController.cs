@@ -11,49 +11,39 @@ namespace WebApiShop.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        UserServices service = new UserServices();
+        private readonly UserServices _userServices = new UserServices();
 
-        // GET: api/<UsersController>
-        [HttpGet]
-        public string Get()
-        {
-            return "value";
-        }
+        /
 
         // GET api/<UsersController>/5
         [HttpGet("{id}")]
         public ActionResult<User> Get(int id)
         {
-            User user= service.getUserByID(id);
+            User user = _userServices.GetUserByID(id);
             if(user == null) 
-                return NoContent();
+                return NotFound();
             return Ok(user);
 
         }
         
         // POST api/<UsersController>
         [HttpPost]
-        public ActionResult <User> POST([FromBody] User user)
+        public ActionResult<User> Post([FromBody] User user)
         {
-            user = service.addUser(user);
+            user = _userServices.AddUser(user);
             if (user == null)
             {
-                return BadRequest("Password id too weak!");
+                return BadRequest("Password is not strong enough");
             }
             return CreatedAtAction(nameof(Get), new {user.Id }, user);
         }
 
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
-        public void Put(int id,[FromBody] User userToUpdate)
+        public ActionResult Put(int id, [FromBody] User userToUpdate)
         {
-            service.UpdateUser(userToUpdate);
-        }
-
-        // DELETE api/<UsersController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            _userServices.UpdateUser(userToUpdate);
+            return NoContent();
         }
     }
 }

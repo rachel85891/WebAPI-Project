@@ -9,13 +9,13 @@ namespace Services
 {
     public class PasswordService
     {
-        public PasswordEntity getStrengthByPass(string password)
+        public PasswordEntity GetStrengthByPass(string password)
         {
             var result = Zxcvbn.Core.EvaluatePassword(password);
             int strength = result.Score;
             PasswordEntity pass = new PasswordEntity();
-            pass.password = password;
-            pass.strength = strength;
+            pass.Password = password;
+            pass.Strength = strength;
             return pass;
         }
     }

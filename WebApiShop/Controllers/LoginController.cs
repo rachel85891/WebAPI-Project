@@ -11,41 +11,16 @@ namespace WebApiShop.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        LoginService service=new LoginService();
-        // GET: api/<LoginController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/<LoginController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        private readonly LoginService _loginService = new LoginService();
 
         // POST api/<LoginController>
         [HttpPost]
-        public ActionResult<User> GetLogin([FromBody] LoginUser loginUser)
+        public ActionResult<User> Post([FromBody] LoginUser loginUser)
         {
-            User user=service.Login(loginUser);
+            User user = _loginService.Login(loginUser);
             if (user == null) 
-                return NoContent();
+                return Unauthorized();
             return Ok(user);
-        }
-
-        // PUT api/<LoginController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<LoginController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }
