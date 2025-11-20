@@ -10,10 +10,11 @@ namespace Services
 {
     public class LoginService
     {
-        LoginRepository repository=new LoginRepository();
+        private readonly LoginRepository _loginRepository = new LoginRepository();
+        
         public User Login(LoginUser user)
         {
-            return repository.Login(user);
+            return _loginRepository.Login(user);
         }
     }
 }

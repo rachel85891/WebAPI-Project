@@ -5,9 +5,10 @@ namespace Repositories
 {
     public class UserRepository
     {
-        string filePath = "..\\file.txt";
-        public User getUserByID(int id) { 
-            using (StreamReader reader = System.IO.File.OpenText(filePath))
+        private readonly string _filePath = Path.Combine(Directory.GetCurrentDirectory(), "file.txt");
+        
+        public User GetUserByID(int id) { 
+            using (StreamReader reader = System.IO.File.OpenText(_filePath))
             {
                 string? currentUserInFile;
                 while ((currentUserInFile = reader.ReadLine()) != null)
@@ -15,24 +16,24 @@ namespace Repositories
                     User user = JsonSerializer.Deserialize<User>(currentUserInFile);
                     if (user.Id == id)
                         return user;
-}
+                }
             }
             return null;
         }
 
-        public User addUser(User user)
+        public User AddUser(User user)
         {
-            int numberOfUsers = System.IO.File.ReadLines(filePath).Count();
+            int numberOfUsers = System.IO.File.ReadLines(_filePath).Count();
             user.Id = numberOfUsers + 1;
             string userJson = JsonSerializer.Serialize(user);
-            System.IO.File.AppendAllText(filePath, userJson + Environment.NewLine);
+            System.IO.File.AppendAllText(_filePath, userJson + Environment.NewLine);
             return user;
         }
 
         public void UpdateUser(User userToUpdate)
         {
             string textToReplace = string.Empty;
-            using (StreamReader reader = System.IO.File.OpenText(filePath))
+            using (StreamReader reader = System.IO.File.OpenText(_filePath))
             {
                 string currentUserInFile;
                 while ((currentUserInFile = reader.ReadLine()) != null)
@@ -45,9 +46,9 @@ namespace Repositories
             }
             if (textToReplace != string.Empty)
             {
-                string text = System.IO.File.ReadAllText(filePath);
+                string text = System.IO.File.ReadAllText(_filePath);
                 text = text.Replace(textToReplace, JsonSerializer.Serialize(userToUpdate));
-                System.IO.File.WriteAllText(filePath, text);
+                System.IO.File.WriteAllText(_filePath, text);
             }
         }
     }
