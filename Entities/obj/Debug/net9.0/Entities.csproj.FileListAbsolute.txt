@@ -9,3 +9,4 @@ M:\webAPI\WebApiShop\Entities\obj\Debug\net9.0\Entities.dll
 M:\webAPI\WebApiShop\Entities\obj\Debug\net9.0\refint\Entities.dll
 M:\webAPI\WebApiShop\Entities\obj\Debug\net9.0\Entities.pdb
 M:\webAPI\WebApiShop\Entities\obj\Debug\net9.0\ref\Entities.dll
+M:\webAPI\WebApiShop\Entities\obj\Debug\net9.0\Entities.sourcelink.json

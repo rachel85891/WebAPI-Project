@@ -3,10 +3,11 @@ using System.Text.Json;
 
 namespace Repositories
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
-        string filePath = "..\\file.txt";
-        public User getUserByID(int id) { 
+        string filePath = "..\\file1.txt";
+        public User getUserByID(int id)
+        {
             using (StreamReader reader = System.IO.File.OpenText(filePath))
             {
                 string? currentUserInFile;
@@ -15,7 +16,7 @@ namespace Repositories
                     User user = JsonSerializer.Deserialize<User>(currentUserInFile);
                     if (user.Id == id)
                         return user;
-}
+                }
             }
             return null;
         }
@@ -29,7 +30,7 @@ namespace Repositories
             return user;
         }
 
-        public void UpdateUser(User userToUpdate)
+        public User UpdateUser(User userToUpdate)
         {
             string textToReplace = string.Empty;
             using (StreamReader reader = System.IO.File.OpenText(filePath))
@@ -49,8 +50,9 @@ namespace Repositories
                 text = text.Replace(textToReplace, JsonSerializer.Serialize(userToUpdate));
                 System.IO.File.WriteAllText(filePath, text);
             }
+            return userToUpdate;
         }
     }
 
-    
+
 }

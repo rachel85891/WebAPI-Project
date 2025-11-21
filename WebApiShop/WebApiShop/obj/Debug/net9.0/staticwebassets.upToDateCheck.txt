@@ -1,0 +1,8 @@
+E:\webAPI\WebApiShop\WebApiShop\WebApiShop\wwwroot\index.html
+E:\webAPI\WebApiShop\WebApiShop\WebApiShop\wwwroot\script.js
+E:\webAPI\WebApiShop\WebApiShop\WebApiShop\wwwroot\userDetails.html
+E:\webAPI\WebApiShop\WebApiShop\WebApiShop\wwwroot\updateJS.js
+wwwroot\index.html
+wwwroot\script.js
+wwwroot\updateJS.js
+wwwroot\userDetails.html

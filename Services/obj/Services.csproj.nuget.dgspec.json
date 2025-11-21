@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "M:\\webAPI\\WebApiShop\\Services\\Services.csproj": {}
+    "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Services\\Services.csproj": {}
   },
   "projects": {
-    "M:\\webAPI\\WebApiShop\\Entities\\Entities.csproj": {
+    "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\webAPI\\WebApiShop\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "M:\\webAPI\\WebApiShop\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\216339176\\.nuget\\packages\\",
-        "outputPath": "M:\\webAPI\\WebApiShop\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\racheli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\216339176\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\racheli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -66,24 +66,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "M:\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\216339176\\.nuget\\packages\\",
-        "outputPath": "M:\\webAPI\\WebApiShop\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\racheli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\216339176\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\racheli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,8 +99,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "M:\\webAPI\\WebApiShop\\Entities\\Entities.csproj": {
-                "projectPath": "M:\\webAPI\\WebApiShop\\Entities\\Entities.csproj"
+              "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Entities\\Entities.csproj"
               }
             }
           }
@@ -115,7 +115,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -136,24 +136,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\webAPI\\WebApiShop\\Services\\Services.csproj": {
+    "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\webAPI\\WebApiShop\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "M:\\webAPI\\WebApiShop\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\216339176\\.nuget\\packages\\",
-        "outputPath": "M:\\webAPI\\WebApiShop\\Services\\obj\\",
+        "projectPath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\racheli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\216339176\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\racheli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -169,8 +169,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "M:\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj": {
-                "projectPath": "M:\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj"
+              "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -185,7 +185,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -212,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

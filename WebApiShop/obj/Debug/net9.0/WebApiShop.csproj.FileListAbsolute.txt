@@ -128,7 +128,6 @@ M:\webAPI\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\WebApiShop.pdb
 M:\webAPI\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\WebApiShop.genruntimeconfig.cache
 M:\webAPI\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\ref\WebApiShop.dll
 M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\compressed\3yd7zxq4r8-gdbcq48tbc.gz
-M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\compressed\lfpq9raow6-6kvxo7o5n2.gz
 M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\Entities.dll
 M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\Repositories.dll
 M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\Services.dll
@@ -139,5 +138,6 @@ M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\WebApiShop.csproj.AssemblyRefer
 M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\WebApiShop.sourcelink.json
 M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\WebApiShop.csproj.Up2Date
 M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\zxcvbn-core.dll
-M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\compressed\co1eup8ul9-q9c29m27sd.gz
 M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\compressed\8w4e4emq58-2xg7u232be.gz
+M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\compressed\lfpq9raow6-rfzu104h42.gz
+M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\compressed\co1eup8ul9-wmrg7mzif0.gz

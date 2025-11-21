@@ -11,7 +11,11 @@ namespace WebApiShop.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        LoginService service=new LoginService();
+        private readonly ILoginService _service;
+        public LoginController(ILoginService service)
+        {
+            _service = service;
+        }
         // GET: api/<LoginController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -30,7 +34,7 @@ namespace WebApiShop.Controllers
         [HttpPost]
         public ActionResult<User> GetLogin([FromBody] LoginUser loginUser)
         {
-            User user=service.Login(loginUser);
+            User user=_service.Login(loginUser);
             if (user == null) 
                 return NoContent();
             return Ok(user);

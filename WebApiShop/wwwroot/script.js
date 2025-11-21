@@ -78,11 +78,18 @@ checkButton.addEventListener('click', async (event) => {
     const password = document.querySelector("#password2").value
     const progressBar = document.querySelector(".progressBar")
     strength = await checkPassword(password)
+    console.log(strength)
     progressBar.innerHTML=`<progress value="${strength}"></progress>`
 })
 
 async function checkPassword(password) {
-    const response = await fetch(`api/Password/${password}`);
+    const response = await fetch('api/Password', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(password)
+    });
     const data = await response.json();
     console.log('POST Data:', data);
     if (response.status == 200) {

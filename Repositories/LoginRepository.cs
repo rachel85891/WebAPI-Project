@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Repositories
 {
-    public class LoginRepository
+    public class LoginRepository : ILoginRepository
     {
-        string filePath = "..\\file.txt";
+        string filePath = "..\\file1.txt";
 
         public User Login(LoginUser user)
         {

@@ -1,0 +1,1382 @@
+{
+  "Version": 1,
+  "Hash": "VGftFl8sRXhedzL1DULwy/vKLarPEbLZAmiX8132M4o=",
+  "Source": "WebApiShop",
+  "BasePath": "_content/WebApiShop",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApiShop\\wwwroot",
+      "Source": "WebApiShop",
+      "ContentRoot": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\",
+      "BasePath": "_content/WebApiShop",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\8w4e4emq58-vy8i84bva2.gz",
+      "SourceId": "WebApiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApiShop",
+      "RelativePath": "index#[.{fingerprint=vy8i84bva2}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "v5enifaxgc",
+      "Integrity": "c3Uq213O0qgfMwdtd/d1STMF3sMnMowhFVljueJddA0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\co1eup8ul9-h4isvnaw8p.gz",
+      "SourceId": "WebApiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApiShop",
+      "RelativePath": "script#[.{fingerprint=h4isvnaw8p}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gct7ltgquk",
+      "Integrity": "UNmlZdSMPQwG5UxsOoYuq3T3fPXJB4pMxoVBRSnG5jM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\script.js"
+    },
+    {
+      "Identity": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\kc4fdn574z-crl9ncxwtq.gz",
+      "SourceId": "WebApiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApiShop",
+      "RelativePath": "userDetails#[.{fingerprint=crl9ncxwtq}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\userDetails.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "lat162mi6k",
+      "Integrity": "c8ed9B+yf4PHmd8/pxMeUso+0uYe6y/h/GPiH455v4w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\userDetails.html"
+    },
+    {
+      "Identity": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\z3hsi74j6z-imj3g03xac.gz",
+      "SourceId": "WebApiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApiShop",
+      "RelativePath": "updateJS#[.{fingerprint=imj3g03xac}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\updateJS.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8i9jun5e1l",
+      "Integrity": "IN/EOOuQlPrCLxx/zetxzgqmDxSDpQL8EDj4YarcqvI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\updateJS.js"
+    },
+    {
+      "Identity": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\index.html",
+      "SourceId": "WebApiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\",
+      "BasePath": "_content/WebApiShop",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vy8i84bva2",
+      "Integrity": "GfppWrKoAlzyrMrvn62VedH4xjU6TVATuEkTv7MX8mU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\script.js",
+      "SourceId": "WebApiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\",
+      "BasePath": "_content/WebApiShop",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4isvnaw8p",
+      "Integrity": "P9rxVBopTKjGftjEan6rGEe5CniacyC/aqNf0oIIVEc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\updateJS.js",
+      "SourceId": "WebApiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\",
+      "BasePath": "_content/WebApiShop",
+      "RelativePath": "updateJS#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "imj3g03xac",
+      "Integrity": "5vnVXq4H9gHFTsHbHL+0JGuydNV0MCEL81QHkC0hGXE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\updateJS.js"
+    },
+    {
+      "Identity": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\userDetails.html",
+      "SourceId": "WebApiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\",
+      "BasePath": "_content/WebApiShop",
+      "RelativePath": "userDetails#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "crl9ncxwtq",
+      "Integrity": "aA0SvUgpYfslGfX8GNjsbQ5Mj4QHY69vBWzYfQ+EBoQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userDetails.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\8w4e4emq58-vy8i84bva2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002257336343"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3Uq213O0qgfMwdtd/d1STMF3sMnMowhFVljueJddA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:13:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GfppWrKoAlzyrMrvn62VedH4xjU6TVATuEkTv7MX8mU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GfppWrKoAlzyrMrvn62VedH4xjU6TVATuEkTv7MX8mU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GfppWrKoAlzyrMrvn62VedH4xjU6TVATuEkTv7MX8mU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:13:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GfppWrKoAlzyrMrvn62VedH4xjU6TVATuEkTv7MX8mU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\8w4e4emq58-vy8i84bva2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3Uq213O0qgfMwdtd/d1STMF3sMnMowhFVljueJddA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:13:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c3Uq213O0qgfMwdtd/d1STMF3sMnMowhFVljueJddA0="
+        }
+      ]
+    },
+    {
+      "Route": "index.vy8i84bva2.html",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\8w4e4emq58-vy8i84bva2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002257336343"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3Uq213O0qgfMwdtd/d1STMF3sMnMowhFVljueJddA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:13:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GfppWrKoAlzyrMrvn62VedH4xjU6TVATuEkTv7MX8mU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vy8i84bva2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GfppWrKoAlzyrMrvn62VedH4xjU6TVATuEkTv7MX8mU="
+        }
+      ]
+    },
+    {
+      "Route": "index.vy8i84bva2.html",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GfppWrKoAlzyrMrvn62VedH4xjU6TVATuEkTv7MX8mU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:13:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vy8i84bva2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GfppWrKoAlzyrMrvn62VedH4xjU6TVATuEkTv7MX8mU="
+        }
+      ]
+    },
+    {
+      "Route": "index.vy8i84bva2.html.gz",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\8w4e4emq58-vy8i84bva2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c3Uq213O0qgfMwdtd/d1STMF3sMnMowhFVljueJddA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:13:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vy8i84bva2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c3Uq213O0qgfMwdtd/d1STMF3sMnMowhFVljueJddA0="
+        }
+      ]
+    },
+    {
+      "Route": "script.h4isvnaw8p.js",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\co1eup8ul9-h4isvnaw8p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001338688086"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "746"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UNmlZdSMPQwG5UxsOoYuq3T3fPXJB4pMxoVBRSnG5jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:12:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"P9rxVBopTKjGftjEan6rGEe5CniacyC/aqNf0oIIVEc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4isvnaw8p"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9rxVBopTKjGftjEan6rGEe5CniacyC/aqNf0oIIVEc="
+        }
+      ]
+    },
+    {
+      "Route": "script.h4isvnaw8p.js",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P9rxVBopTKjGftjEan6rGEe5CniacyC/aqNf0oIIVEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:12:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4isvnaw8p"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9rxVBopTKjGftjEan6rGEe5CniacyC/aqNf0oIIVEc="
+        }
+      ]
+    },
+    {
+      "Route": "script.h4isvnaw8p.js.gz",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\co1eup8ul9-h4isvnaw8p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UNmlZdSMPQwG5UxsOoYuq3T3fPXJB4pMxoVBRSnG5jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:12:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4isvnaw8p"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UNmlZdSMPQwG5UxsOoYuq3T3fPXJB4pMxoVBRSnG5jM="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\co1eup8ul9-h4isvnaw8p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001338688086"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "746"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UNmlZdSMPQwG5UxsOoYuq3T3fPXJB4pMxoVBRSnG5jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:12:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"P9rxVBopTKjGftjEan6rGEe5CniacyC/aqNf0oIIVEc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9rxVBopTKjGftjEan6rGEe5CniacyC/aqNf0oIIVEc="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P9rxVBopTKjGftjEan6rGEe5CniacyC/aqNf0oIIVEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:12:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9rxVBopTKjGftjEan6rGEe5CniacyC/aqNf0oIIVEc="
+        }
+      ]
+    },
+    {
+      "Route": "script.js.gz",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\co1eup8ul9-h4isvnaw8p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UNmlZdSMPQwG5UxsOoYuq3T3fPXJB4pMxoVBRSnG5jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:12:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UNmlZdSMPQwG5UxsOoYuq3T3fPXJB4pMxoVBRSnG5jM="
+        }
+      ]
+    },
+    {
+      "Route": "updateJS.imj3g03xac.js",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\z3hsi74j6z-imj3g03xac.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002036659878"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "490"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IN/EOOuQlPrCLxx/zetxzgqmDxSDpQL8EDj4YarcqvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5vnVXq4H9gHFTsHbHL+0JGuydNV0MCEL81QHkC0hGXE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imj3g03xac"
+        },
+        {
+          "Name": "label",
+          "Value": "updateJS.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5vnVXq4H9gHFTsHbHL+0JGuydNV0MCEL81QHkC0hGXE="
+        }
+      ]
+    },
+    {
+      "Route": "updateJS.imj3g03xac.js",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\updateJS.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vnVXq4H9gHFTsHbHL+0JGuydNV0MCEL81QHkC0hGXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imj3g03xac"
+        },
+        {
+          "Name": "label",
+          "Value": "updateJS.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5vnVXq4H9gHFTsHbHL+0JGuydNV0MCEL81QHkC0hGXE="
+        }
+      ]
+    },
+    {
+      "Route": "updateJS.imj3g03xac.js.gz",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\z3hsi74j6z-imj3g03xac.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IN/EOOuQlPrCLxx/zetxzgqmDxSDpQL8EDj4YarcqvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imj3g03xac"
+        },
+        {
+          "Name": "label",
+          "Value": "updateJS.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IN/EOOuQlPrCLxx/zetxzgqmDxSDpQL8EDj4YarcqvI="
+        }
+      ]
+    },
+    {
+      "Route": "updateJS.js",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\z3hsi74j6z-imj3g03xac.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002036659878"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "490"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IN/EOOuQlPrCLxx/zetxzgqmDxSDpQL8EDj4YarcqvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5vnVXq4H9gHFTsHbHL+0JGuydNV0MCEL81QHkC0hGXE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5vnVXq4H9gHFTsHbHL+0JGuydNV0MCEL81QHkC0hGXE="
+        }
+      ]
+    },
+    {
+      "Route": "updateJS.js",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\updateJS.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vnVXq4H9gHFTsHbHL+0JGuydNV0MCEL81QHkC0hGXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5vnVXq4H9gHFTsHbHL+0JGuydNV0MCEL81QHkC0hGXE="
+        }
+      ]
+    },
+    {
+      "Route": "updateJS.js.gz",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\z3hsi74j6z-imj3g03xac.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IN/EOOuQlPrCLxx/zetxzgqmDxSDpQL8EDj4YarcqvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IN/EOOuQlPrCLxx/zetxzgqmDxSDpQL8EDj4YarcqvI="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.crl9ncxwtq.html",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\kc4fdn574z-crl9ncxwtq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002506265664"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "398"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8ed9B+yf4PHmd8/pxMeUso+0uYe6y/h/GPiH455v4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:08:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aA0SvUgpYfslGfX8GNjsbQ5Mj4QHY69vBWzYfQ+EBoQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "crl9ncxwtq"
+        },
+        {
+          "Name": "label",
+          "Value": "userDetails.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aA0SvUgpYfslGfX8GNjsbQ5Mj4QHY69vBWzYfQ+EBoQ="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.crl9ncxwtq.html",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\userDetails.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aA0SvUgpYfslGfX8GNjsbQ5Mj4QHY69vBWzYfQ+EBoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:08:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "crl9ncxwtq"
+        },
+        {
+          "Name": "label",
+          "Value": "userDetails.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aA0SvUgpYfslGfX8GNjsbQ5Mj4QHY69vBWzYfQ+EBoQ="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.crl9ncxwtq.html.gz",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\kc4fdn574z-crl9ncxwtq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "398"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8ed9B+yf4PHmd8/pxMeUso+0uYe6y/h/GPiH455v4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:08:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "crl9ncxwtq"
+        },
+        {
+          "Name": "label",
+          "Value": "userDetails.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8ed9B+yf4PHmd8/pxMeUso+0uYe6y/h/GPiH455v4w="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.html",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\kc4fdn574z-crl9ncxwtq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002506265664"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "398"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8ed9B+yf4PHmd8/pxMeUso+0uYe6y/h/GPiH455v4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:08:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aA0SvUgpYfslGfX8GNjsbQ5Mj4QHY69vBWzYfQ+EBoQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aA0SvUgpYfslGfX8GNjsbQ5Mj4QHY69vBWzYfQ+EBoQ="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.html",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\wwwroot\\userDetails.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aA0SvUgpYfslGfX8GNjsbQ5Mj4QHY69vBWzYfQ+EBoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:08:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aA0SvUgpYfslGfX8GNjsbQ5Mj4QHY69vBWzYfQ+EBoQ="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.html.gz",
+      "AssetFile": "E:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop\\obj\\Debug\\net9.0\\compressed\\kc4fdn574z-crl9ncxwtq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "398"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8ed9B+yf4PHmd8/pxMeUso+0uYe6y/h/GPiH455v4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 20:08:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8ed9B+yf4PHmd8/pxMeUso+0uYe6y/h/GPiH455v4w="
+        }
+      ]
+    }
+  ]
+}

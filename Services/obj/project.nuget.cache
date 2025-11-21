@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2j9R2HXzl6M=",
+  "dgSpecHash": "1w8X/FibxJo=",
   "success": true,
-  "projectFilePath": "M:\\webAPI\\WebApiShop\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\Services\\Services.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\216339176\\.nuget\\packages\\zxcvbn-core\\8.0.0-beta0002\\zxcvbn-core.8.0.0-beta0002.nupkg.sha512"
+    "C:\\Users\\racheli\\.nuget\\packages\\zxcvbn-core\\8.0.0-beta0002\\zxcvbn-core.8.0.0-beta0002.nupkg.sha512"
   ],
   "logs": []
 }

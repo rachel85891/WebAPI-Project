@@ -7,8 +7,9 @@ using Entities;
 
 namespace Services
 {
-    public class PasswordService
+    public class PasswordService : IPasswordService
     {
+        public PasswordService() { }
         public PasswordEntity getStrengthByPass(string password)
         {
             var result = Zxcvbn.Core.EvaluatePassword(password);
