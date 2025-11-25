@@ -10,7 +10,7 @@ namespace Repositories
 {
     public class LoginRepository : ILoginRepository
     {
-        string filePath = "..\\file1.txt";
+        private readonly string filePath = Path.Combine(Directory.GetCurrentDirectory(), "file1.txt");
 
         public User Login(LoginUser user)
         {
