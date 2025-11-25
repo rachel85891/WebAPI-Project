@@ -36,20 +36,8 @@ namespace WebApiShop.Controllers
         {
             User user=_service.Login(loginUser);
             if (user == null) 
-                return NoContent();
+                return Unauthorized();
             return Ok(user);
-        }
-
-        // PUT api/<LoginController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<LoginController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }

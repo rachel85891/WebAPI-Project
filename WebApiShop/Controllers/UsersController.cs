@@ -11,18 +11,12 @@ namespace WebApiShop.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        IUserServices _service;
+        private readonly IUserServices _service;
         public UsersController(IUserServices service)
         {
             _service = service;
         }
 
-        // GET: api/<UsersController>
-        [HttpGet]
-        public string Get()
-        {
-            return "value";
-        }
 
         // GET api/<UsersController>/5
         [HttpGet("{id}")]
@@ -30,7 +24,7 @@ namespace WebApiShop.Controllers
         {
             User user= _service.getUserByID(id);
             if(user == null) 
-                return NoContent();
+                return NotFound();
             return Ok(user);
 
         }
@@ -49,20 +43,13 @@ namespace WebApiShop.Controllers
 
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
-        public ActionResult<User> Put(int id,[FromBody] User userToUpdate)
+        public IActionResult Put(int id,[FromBody] User userToUpdate)
         {
             userToUpdate.Id = id;
-            userToUpdate =_service.UpdateUser(userToUpdate);
-            if (userToUpdate == null)
+            User updatedUser =_service.UpdateUser(userToUpdate);
+            if (updatedUser == null)
                 return BadRequest("Password is too weak!");
-            else
-                return Ok(userToUpdate);
-        }
-
-        // DELETE api/<UsersController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            return NoContent();
         }
     }
 }

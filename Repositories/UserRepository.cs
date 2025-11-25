@@ -5,7 +5,7 @@ namespace Repositories
 {
     public class UserRepository : IUserRepository
     {
-        string filePath = "..\\file1.txt";
+        private readonly string filePath = Path.Combine(Directory.GetCurrentDirectory(), "file1.txt");
         public User getUserByID(int id)
         {
             using (StreamReader reader = System.IO.File.OpenText(filePath))
