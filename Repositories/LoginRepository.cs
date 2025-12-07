@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,23 +9,17 @@ using System.Threading.Tasks;
 
 namespace Repositories
 {
-    public class LoginRepository
+    public class LoginRepository : ILoginRepository
     {
-        string filePath = "..\\file.txt";
-
-        public User Login(LoginUser user)
+        webApiShop_216339176Context _context;
+        public LoginRepository(webApiShop_216339176Context webApiShop_216339176Context)
         {
-            using (StreamReader reader = System.IO.File.OpenText(filePath))
-            {
-                string? currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    User fullUser = JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (fullUser.UserName == user.UserName && fullUser.Password == user.Password)
-                        return fullUser;
-                }
-            }
-            return null;
+            _context = webApiShop_216339176Context;
+        }
+
+        public async Task<User> Login(LoginUser user)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.UserName == user.UserName && u.Password == user.Password);
         }
     }
 }

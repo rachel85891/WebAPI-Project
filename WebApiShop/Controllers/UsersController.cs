@@ -11,20 +11,24 @@ namespace WebApiShop.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        UserServices service = new UserServices();
-
-        // GET: api/<UsersController>
-        [HttpGet]
-        public string Get()
+        IUserServices _service;
+        public UsersController(IUserServices service)
         {
-            return "value";
+            _service = service;
         }
+
+        //// GET: api/<UsersController>
+        //[HttpGet]
+        //public string Get()
+        //{
+        //    return "value";
+        //}
 
         // GET api/<UsersController>/5
         [HttpGet("{id}")]
-        public ActionResult<User> Get(int id)
+        public async Task<ActionResult<User>>Get(int id)
         {
-            User user= service.getUserByID(id);
+            User user= await _service.getUserByID(id);
             if(user == null) 
                 return NoContent();
             return Ok(user);
@@ -33,27 +37,32 @@ namespace WebApiShop.Controllers
         
         // POST api/<UsersController>
         [HttpPost]
-        public ActionResult <User> POST([FromBody] User user)
+        public async Task<ActionResult<User>> POST([FromBody] User user)
         {
-            user = service.addUser(user);
+            user = await _service.addUser(user);
             if (user == null)
             {
-                return BadRequest("Password id too weak!");
+                return BadRequest("Password is too weak!");
             }
             return CreatedAtAction(nameof(Get), new {user.Id }, user);
         }
 
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
-        public void Put(int id,[FromBody] User userToUpdate)
+        public async Task<ActionResult<User>> Put(int id,[FromBody] User userToUpdate)
         {
-            service.UpdateUser(userToUpdate);
+            userToUpdate.Id = id;
+            userToUpdate =await _service.UpdateUser(userToUpdate);
+            if (userToUpdate == null)
+                return BadRequest("Password is too weak!");
+            else
+                return Ok(userToUpdate);
         }
 
-        // DELETE api/<UsersController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //// DELETE api/<UsersController>/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

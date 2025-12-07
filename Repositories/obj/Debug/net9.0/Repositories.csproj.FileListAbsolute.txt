@@ -13,3 +13,4 @@ M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.dll
 M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\refint\Repositories.dll
 M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.pdb
 M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\ref\Repositories.dll
+M:\webAPI\WebApiShop\Repositories\obj\Debug\net9.0\Repositories.sourcelink.json
