@@ -34,7 +34,11 @@ namespace WebApiShop.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> GetLogin([FromBody] LoginUser loginUser)
         {
+<<<<<<< HEAD
             User user= await _service.Login(loginUser);
+=======
+            User user=_service.Login(loginUser);
+>>>>>>> a2a7b1af37d7aed8d93ab01dfe8282c82897ce94
             if (user == null) 
                 return NoContent();
             return Ok(user);

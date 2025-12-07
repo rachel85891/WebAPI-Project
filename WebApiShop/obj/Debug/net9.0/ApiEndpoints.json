@@ -405,9 +405,15 @@
     ]
   },
   {
+<<<<<<< HEAD
     "ContainingType": "WebApiShop.Controllers.ProductController",
     "Method": "Get",
     "RelativePath": "api/Product",
+=======
+    "ContainingType": "WebApiShop.Controllers.UsersController",
+    "Method": "Get",
+    "RelativePath": "api/Users",
+>>>>>>> a2a7b1af37d7aed8d93ab01dfe8282c82897ce94
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -503,6 +509,31 @@
           "application/json",
           "text/json"
         ],
+<<<<<<< HEAD
+=======
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiShop.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+>>>>>>> a2a7b1af37d7aed8d93ab01dfe8282c82897ce94
         "StatusCode": 200
       }
     ]

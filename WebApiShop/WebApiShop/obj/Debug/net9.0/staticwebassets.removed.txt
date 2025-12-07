@@ -1,0 +1,4 @@
+M:\webAPI\WebApiShop\WebApiShop\WebApiShop\wwwroot\index.html
+M:\webAPI\WebApiShop\WebApiShop\WebApiShop\wwwroot\script.js
+M:\webAPI\WebApiShop\WebApiShop\WebApiShop\wwwroot\updateJS.js
+M:\webAPI\WebApiShop\WebApiShop\WebApiShop\wwwroot\userDetails.html

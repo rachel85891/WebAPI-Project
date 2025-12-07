@@ -141,6 +141,7 @@ M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\zxcvbn-core.dll
 M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\compressed\8w4e4emq58-2xg7u232be.gz
 M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\compressed\lfpq9raow6-rfzu104h42.gz
 M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\compressed\co1eup8ul9-wmrg7mzif0.gz
+<<<<<<< HEAD
 M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\Azure.Core.dll
 M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\Azure.Identity.dll
 M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -197,3 +198,5 @@ M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.
 M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 M:\webAPI\WebApiShop\WebApiShop\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 M:\webAPI\WebApiShop\WebApiShop\obj\Debug\net9.0\WebApiShop.MvcApplicationPartsAssemblyInfo.cs
+=======
+>>>>>>> a2a7b1af37d7aed8d93ab01dfe8282c82897ce94

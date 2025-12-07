@@ -1,2 +1,5 @@
 {"UserName":"r@r","Password":"123rrr!!!75etux5","FirstName":"l","LastName":"r","Id":1}
+<<<<<<< HEAD
 {"Id":2,"UserName":"rl@r","FirstName":"rr","LastName":"ll","Password":"r123!!!"}
+=======
+>>>>>>> a2a7b1af37d7aed8d93ab01dfe8282c82897ce94

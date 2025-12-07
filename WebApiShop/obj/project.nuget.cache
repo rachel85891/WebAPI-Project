@@ -1,9 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "+clO2LSJe7Q=",
+=======
+  "dgSpecHash": "c6bxVzfsqPI=",
+>>>>>>> a2a7b1af37d7aed8d93ab01dfe8282c82897ce94
   "success": true,
-  "projectFilePath": "M:\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop.csproj",
+  "projectFilePath": "C:\\Users\\racheli\\Documents\\רחלי- לימודים\\יד\\webAPI\\WebApiShop\\WebApiShop\\WebApiShop.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\216339176\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\216339176\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\216339176\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
@@ -67,6 +72,9 @@
     "C:\\Users\\216339176\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\216339176\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\216339176\\.nuget\\packages\\zxcvbn-core\\8.0.0-beta0002\\zxcvbn-core.8.0.0-beta0002.nupkg.sha512"
+=======
+    "C:\\Users\\racheli\\.nuget\\packages\\zxcvbn-core\\8.0.0-beta0002\\zxcvbn-core.8.0.0-beta0002.nupkg.sha512"
+>>>>>>> a2a7b1af37d7aed8d93ab01dfe8282c82897ce94
   ],
   "logs": []
 }

@@ -11,8 +11,14 @@ namespace Repositories
 {
     public class LoginRepository : ILoginRepository
     {
+<<<<<<< HEAD
         webApiShop_216339176Context _context;
         public LoginRepository(webApiShop_216339176Context webApiShop_216339176Context)
+=======
+        string filePath = "..\\file1.txt";
+
+        public User Login(LoginUser user)
+>>>>>>> a2a7b1af37d7aed8d93ab01dfe8282c82897ce94
         {
             _context = webApiShop_216339176Context;
         }
