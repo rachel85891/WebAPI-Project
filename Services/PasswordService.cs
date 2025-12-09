@@ -10,14 +10,14 @@ namespace Services
     public class PasswordService : IPasswordService
     {
         public PasswordService() { }
-        public PasswordEntity getStrengthByPass(string password)
+        public async Task<PasswordEntity> GetStrengthByPass(string password)
         {
             var result = Zxcvbn.Core.EvaluatePassword(password);
             int strength = result.Score;
             PasswordEntity pass = new PasswordEntity();
             pass.password = password;
             pass.strength = strength;
-            return pass;
+            return await Task.FromResult(pass);
         }
     }
 }
